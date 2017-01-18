@@ -1,0 +1,95 @@
+/* qnight scheme ported from notepad++ to google prettify by QFisH WebSite:QFisH.Me*/
+pre { position: relative;  background: #3f3632;text-shadow:0 0 2px #000;}
+pre::after {
+color: #0efae1;
+text-shadow:0 0 2px #047396;
+content: attr(lang);
+font-family: HelveticaNeue, Helvetica, Arial, sans-serif;
+font-size: 24px;
+font-weight: bold;
+line-height: 0;
+position: absolute;
+right: 12px;
+top: 16px;
+}
+.str{color:#b0ebe7}
+.kwd{color:#fb8c69}
+.com{color:#91fbfa}
+.typ{color:#f6699a}
+.lit{color:#80ff80}
+.pun{color:#cc9999}
+.opn{}
+.clo{}
+.tag{color:#0096db}
+.atn{color:#ffcc33}
+.atv{color:#80ff80}
+.dec,.var{color:#606}
+.fun{color:red}
+.pln{color:#c6f983}
+
+pre.prettyprint, code.prettyprint {
+		font: 14px Monaco, Courier, MonoSpace;
+        -moz-border-radius: 8px;
+        -webkit-border-radius: 8px;
+        -o-border-radius: 8px;
+        -ms-border-radius: 8px;
+        -khtml-border-radius: 8px;
+        border-radius: 8px;
+		padding:30px 10px 10px 10px;
+		overflow-x:hidden;
+		overflow-y:hidden;
+}
+
+.source{
+	color:#ddd;
+	text-shadow:1px 1px 0px #000;
+	background: #666 !important;
+	font: 12px Monaco, Courier, MonoSpace;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-o-border-radius: 8px;
+	-ms-border-radius: 8px;
+	-khtml-border-radius: 8px;
+	border-radius: 8px;
+}
+
+@media screen{
+.str{color:#b0ebe7}
+.kwd{color:#fb8c69}
+.com{color:#91fbfa}
+.typ{color:#f6699a}
+.lit{color:#80ff80}
+.pun{color:#cc9999}
+.opn{}
+.clo{}
+.tag{color:#0096db}
+.atn{color:#ffcc33}
+.atv{color:#80ff80}
+.dec,.var{color:#606}
+.fun{color:red}
+}
+
+@media print,projection{
+.str{color:#060}
+.kwd{color:#006;font-weight:bold}
+.com{color:#600;font-style:italic}
+.typ{color:#404;font-weight:bold}
+.lit{color:#044}
+.pun,.opn,.clo{color:#440}
+.tag{color:#006;font-weight:bold}
+.atn{color:#404}.atv{color:#060}
+}
+/* Specify class=linenums on a pre to get line numbering */
+li.L0,li.L1,li.L2,li.L3,li.L5,li.L6,li.L7,li.L8 {}
+/* Alternate shading for lines */
+li.L1,li.L3,li.L5,li.L7,li.L9 { }
+/* Specify class=linenums on a pre to get line numbering */
+ol.linenums {
+padding: 0 0 0 10px;
+margin:0px;
+border-left:30px solid #4f3639;
+list-style-type:decimal-leading-zero;
+color:#b0ebe7;
+} /* IE indents via margin-left */
+ol.linenums li{margin:0;padding:2px 0;border-bottom:1px dashed #555;}
+ol.linenums li:nth-of-type(even){}
